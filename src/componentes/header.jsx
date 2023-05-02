@@ -18,7 +18,7 @@ export default function Header(props) {
           <li><NavLink to="/notas">Notas</NavLink></li>
           <li><NavLink to="/financeiro">Financeiro</NavLink></li>
           <li><NavLink to={`/sobre/${props.usuarioID}`}>Sobre</NavLink></li>
-          <li><button onClick={handleClick}>Sair</button></li>
+          <li><button className="sair" onClick={handleClick}>Sair</button></li>
         </ul>
       </nav>
     </header>

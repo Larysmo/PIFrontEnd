@@ -2,7 +2,7 @@ import { useState } from "react"
 import { useNavigate} from "react-router-dom"
 import Section from "../componentes/section"
 import './login.css'
-
+import logo from '../assets/logo1.png'
 
 
 export default function Login(props){
@@ -24,17 +24,17 @@ export default function Login(props){
 
     function handleChange(event){
         setEmail(event.target.value)
-
     }
 
-
-    return(       
-        <Section titulo="Login">
-            <p>{email}</p>
-            <input type="email" placeholder="e-mail" onChange={handleChange} 
+    return( 
+        <div className="telalogin">
+            <img src={logo} alt="logomarca" className="logomarca"/> 
+            <Section titulo="Faculdade de Ciência em Tecnologia">
+               <input type="email" placeholder="e-mail" onChange={handleChange} 
                 onFocus={handleFocus} onBlur={handleBlur} />
-            <input type="password" placeholder="senha"/>
-            <button onClick={handleClick}>Entrar</button>
-        </Section>
-    )
+                <input type="password" placeholder="senha"/>
+                <button onClick={handleClick}>Entrar</button>
+            </Section>
+        </div>
+    )    
 }

@@ -1,0 +1,30 @@
+.telalogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fbfbe5;/* tem um fundo na tela difernte de branco */ 
+}
+.logomarca{
+ width: 50%; 
+}
+input{
+  margin-right: 20px;
+}
+section{
+  text-align: center;
+}
+  
+button{
+  padding-inline-start: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #f1ab07;
+  padding: 5px 12px;
+  border-radius: 6px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: black;
+}
+button:hover {
+  background: #aa7a0a;
+}

@@ -1,14 +1,15 @@
-header{
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: blue;
-    color: white;
-    align-items: center;
+h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
 }
-nav{
-    width: 25rem;
+header{
+
+    flex-direction: row;
+    background-color: #f1ab07;
+    color: black;
+    align-items: center;
 }
 ul{
     display: flex;
@@ -21,5 +22,10 @@ a{
     text-decoration: none;
 }
 .active{
-    color: aqua;
+    font-size: 20px;
+    color: black;
+}
+.sair{
+    background-color: black;
+    color: white;
 }
