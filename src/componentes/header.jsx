@@ -13,7 +13,6 @@ export default function Header(props) {
   return (
     <header>
       <div>
-      <h1>FACIT</h1>
       <nav>
         <ul>
           <li><NavLink to="/">Home</NavLink></li>

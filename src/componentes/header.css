@@ -1,20 +1,14 @@
-h1{
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 5px;
-
-}
 header{
-
     flex-direction: row;
     background-color: #f1ab07;
     color: black;
-    align-items: center;
+    
 }
 ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;   
     list-style: none;
 }
 a{
